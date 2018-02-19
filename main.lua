@@ -49,6 +49,7 @@ function math.average(table)
     for i, k in pairs(lg) do
       if i == name then error("trying to overwrite existing function!") end
       end
+    end
     lg[name] = func
     end
   print("Setting Up... 6 Done")
@@ -90,5 +91,6 @@ function math.average(table)
       print("lg.table_add(string name, function func)")
       print("Adds a function to the lg table, and refuses when there are duplicate names.")
       end
+    end
     print("Setting Up... 7 Done")
 end
