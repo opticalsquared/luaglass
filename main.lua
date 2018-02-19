@@ -91,5 +91,4 @@ function math.average(table)
       print("Adds a function to the lg table, and refuses when there are duplicate names.")
       end
     print("Setting Up... 7 Done")
-    end
 end
