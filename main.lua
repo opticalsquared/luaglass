@@ -1,5 +1,5 @@
+lg={}
 function luaglass()
-  _G["lg"] = {}
 print([[LuaGLASS  Optical^2]])
   print("Setting Up...")
 function math.reverse(num)
