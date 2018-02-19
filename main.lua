@@ -1,4 +1,5 @@
 function luaglass()
+  lg = {}
 print([[LuaGLASS  Optical^2]])
   print("Setting Up...")
 function math.reverse(num)
@@ -23,7 +24,6 @@ function math.average(table)
     return max - min
     end
   print("Setting Up... 3 Done")
-  lg = {}
   print("Setting Up... 4 Done")
   function lg.meter(value,max,length,style_fill, style_empty)
     if style_fill == nil then local style_fill = "X" end
